@@ -304,16 +304,10 @@ exam-materials/
 ├── grading-rubric.md
 ├── doctor-who-episodes-exam.json
 ├── test-suite.html
-├── starter-template/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-└── variants/
-    ├── variant-a.md
-    ├── variant-b.md
-    ├── variant-c.md
-    ├── variant-d.md
-    └── variant-e.md
+└── starter-template/
+    ├── index.html
+    ├── styles.css
+    └── script.js
 ```
 
 ## Additional Instructions
