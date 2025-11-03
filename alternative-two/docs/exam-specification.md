@@ -31,8 +31,12 @@ Display books in a table with the following columns:
 
 - Fetch book data from the provided JSON endpoint
 
-  - Alternative 1: use the URL: https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/dry-run/data/hugo_books.json
-  - Alternative 2: **(negative 10 points for using this option)** - use a local file named `hugo_books.json` placed in the same directory as your HTML file
+  - Alternative 1: use the URL: https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/hugo-books-full.json
+  - Alternative 2: **(bonus 5 points)** use this set of URLS to load all data:
+      - https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/hugo_books.json
+      - https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/hugo_edges.json
+      - https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/hugo_novellas.json
+  - Alternative 3: **(negative 10 points for using this option)** - use a local file named `hugo-books-full.json` placed in the same directory as your HTML file
 
 - Show loading indicator while data is being fetched
 - Handle network errors gracefully
